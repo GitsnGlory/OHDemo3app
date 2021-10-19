@@ -14,7 +14,7 @@ namespace OHDemo3app.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Converting this to .net core";
+            ViewBag.Message = "Converting this to .net core and deploying to ARO";
 
             return View();
         }
